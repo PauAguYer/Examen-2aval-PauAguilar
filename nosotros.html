@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+    <script>
+        function validar(){
+            var nombre = document.getElementById("nombre").value;
+            var email = document.getElementById("email").value;
+            var naranjas = document.getElementById("naranjas").value;
+            var limones = document.getElementById("limones").value;
+            alert("Bienvenido " + nombre + ". Envíanos un email y contactaremos con usted ");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <p class="Titol">NARANJAS LA RIBERA</p>
+    </header>
+    <div class="caja1">
+        <a href="index.html" class="uno">Naranjas</a>
+        <a href="index.html" class="uno">Limones</a>
+        <a href="cajasfruta.html" class="uno">Cajas de fruta</a>
+        <a href="nosotros.html" class="uno">Nosotros</a>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3097.1388575164247!2d-0.5941903742681902!3d39.08053473587789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd61a74551bca421%3A0xfbd26b6289fbdafa!2s46266%20Antella%2C%20Valencia!5e0!3m2!1ses!2ses!4v1740658300628!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="formulario">
+        <p>Nuestra familia tiene una larga historia en Antella, cuna de la naranja de Valencia. Desde 1870 nuestra familia está afincada en esta localidad valenciana que por sus condiciones climatológicas y ambientales favorece la producción de naranjas y mandarinas de calidad, con gran sabor y aroma.</p>
+        <hr>
+        <p>Solicite Información</p>
+        <form action="">
+            <label for="nombre">Nombre y apellidos:</label>
+            <input type="text" name="nombre" id="nombre"><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="Producto">Producto</label>
+            <input type="radio" name="fruta" id="naranjas" value="Naranjas">
+            <label for="naranjas">Naranjas</label>
+            <input type="radio" name="fruta" id="limones" value="Limones">
+            <label for="limones">Limones</label><br>
+            <input type="submit" value="Enviar"onclick="validar()">
+            <input type="reset" name="reset" id="reset">
+        </form>
+    </div>
+</body>
+</html>

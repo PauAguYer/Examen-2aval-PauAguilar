@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(246, 246, 129);
+}
+
+header{
+    background-color: rgb(247, 141, 102);
+    padding: 10px;
+    text-align: center;
+    margin-top: -9px;
+}
+
+p.Titol{
+    font-size: 50px;
+    text-shadow: orangered 5px 0px 0px;
+    color: white;
+    font-family: 'Akaya Kanadaka';
+}
+
+
+.akaya-kanadaka-regular {
+    font-family: "Akaya Kanadaka", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+div.caja1{
+    background-color: rgb(242, 242, 80);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border: 5px orangered solid;
+    border-style: dashed;
+    margin-top: -3px;
+}
+
+a.uno{
+    color: white;
+    font-size: 20px;
+    border: orangered 2px solid;
+    background-color: rgb(247, 141, 102);
+}
+
+a.uno:hover{
+    background-color: orangered;
+}
+
+div.cajacentro{
+    background-color: rgb(250, 174, 146);
+    padding: 20px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px orangered solid;
+    color: orangered;
+    text-decoration: underline;
+    border-top-left-radius: 20px;
+    border-bottom-style: dotted;
+    border-top-style: dashed;
+    border-right-style: double;
+    letter-spacing: 3px;
+}
+
+
+footer{
+    background-color: rgb(242, 242, 80);
+    padding: 10px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+div.productos{
+    color: orangered;
+    margin-left: 45%;
+}
+
+li.gran{
+    list-style-type: number;
+    font-size: 20px;
+}
+
+li.menut{
+    list-style-type: lower-roman;
+    font-size: 20px;
+}
+
+div.formulario{
+    background-color: rgb(247, 141, 102);
+    float: right;
+    margin-left: 45%;
+    margin-right: 10%;
+    margin-top: -300px;
+    color: white;
+}
